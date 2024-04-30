@@ -1,0 +1,171 @@
+/* ESTILO GERAL */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+
+
+}
+
+
+
+
+
+
+/* ESTILO DO CABEÇALHO */
+header {
+
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interface>.titulo {
+
+    background-color: greenyellow;
+    margin-right: 550px;
+    border-radius: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 66px;
+    background-color: greenyellow;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+}
+
+/* ESTILO DO TOPO DO SITE*/
+
+section .topo-do-site {
+
+    padding: 40px 4%;
+
+}
+
+section.topo-do-site .flex {
+
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: white;
+    font-size: 34px;
+}
+
+.topo-do-site h1 span {
+    color: greenyellow;
+
+}
+
+.topo-do-site p {
+
+    color: white;
+    margin: 40px 0;
+}
+
+/* ESTILO DAS REDES */
+section.Redes {
+
+    padding: 40px 4%;
+
+
+
+}
+
+section.redes .flex {
+
+    gap: 60px;
+
+
+}
+
+section h2 {
+
+    color: white;
+    font-size: 34px;
+    text-align: center;
+
+
+}
+
+section h2 span {
+
+    color: greenyellow;
+
+}
+
+section .redes-box {
+
+    padding: 40px;
+    color: white;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.redes .redes-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.362);
+
+
+
+}
+
+section .redes-box i {
+
+    font-size: 40px;
+
+
+
+}
+
+section .redes-box h3 {
+
+    font-size: 26px;
+    margin: 15px 0;
+
+}
+
+section h3 a {
+
+    text-decoration: none;
+    color: white;
+}
